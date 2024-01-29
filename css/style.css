@@ -1,0 +1,64 @@
+/* My UX Skills*/
+.flexContainer{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.flexContainer > div {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+}
+.wireframing img {
+    width: 200px;
+    height: 200px;
+}
+.userExperience img {
+    width: 200px;
+    height: 200px;
+}
+.curiosity img {
+    width: 200px;
+    height: 200px;
+}
+
+/* My Work */
+.workGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.workItem {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+.workItem img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.workDetails {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc; 
+}
+
+/* Mobile Media Query*/
+@media only screen and (max-width:600) {
+    .flexContainer{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .flexContainer > div {
+        flex: 1;
+        width: 100%;
+        margin: 0 10px;
+        padding: 20px;
+    }
+    
+
+}
