@@ -22,6 +22,21 @@ header.navigation {
     font-weight:lighter;
     color: #1C1C26;
 }
+.titleBB {
+    text-align: center;
+
+}
+.titleBB h1{
+    font-family:"Raleway", sans-serif;
+    font-weight:bolder;
+    color: #1C1C26;
+}
+.titleBB h2 {
+    font-family:"Raleway", sans-serif;
+    font-weight: lighter;
+    color: #1C1C26;
+    font-size: 18px;
+}
 h2 {
     font-size:35px;
     font-family: "Raleway", sans-serif;
@@ -170,21 +185,38 @@ input[type="submit"]:hover {
 }
 footer {
     background-color: #CBB9C0;
-    text-align: right;
-    
+    overflow: hidden;
 }
+
+.footer-left {
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.footer-left img {
+    width: 60%;
+    height: auto;
+}
+
+.footer-right {
+    float: right;
+}
+
 footer ul {
     display: inline-block;
     vertical-align: top;
     margin: 0;
     padding: 50px;
 }
+
 footer li {
     display: inline-block;
     margin: 0 10px;
     font-family: "Raleway", sans-serif;
 }
+
 footer li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
