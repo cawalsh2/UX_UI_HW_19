@@ -17,19 +17,18 @@
             background-repeat: no-repeat;
         }
     </style>
+<script src="js/index.js"></script>
 </head>
-
 <body>
 
     <header class="navigation">
         <div class="logo">
             <img src="images/cw logo.png">
         </div>
-        <nav class="nav-list" onclick="changeTab(event)">
+        <nav class="nav-list">
             <ul>
-                <li data-tab="about">About</li>
-                <li data-tab="skills">Skills</li>
-                <li data-tab="work">Work</li>
+                <li data-tab="cases">Case Studies</li>
+                <li data-tab="about">About Me</li>
                 <li data-tab="contact">Contact</li>
             </ul>
         </nav>
@@ -39,24 +38,34 @@
         <h1>I am Caleigh Walsh</h2>
         <h3>UX/UI Designer</p>
     </div>
-
-    <div class="caseStudies">
-        <h2>CASE STUDIES</h2>
-        <div class="caseCards">
-            <div class="cards">
-                <img src="images/Rectangle 6.png" alt="Case Study 1" class="original-image">
-                <img src="images/BB_hover.png" alt="Case Study 1 Hover" class="hover-image">
-            </div>
-            <div class="cards">
-                <img src="images/Rectangle 7.png" alt="Case Study 2" class="original-image">
-                <img src="images/CAT_hover.png" alt="Case Study 2" class="hover-image">
-            </div>
-            <div class="cards">
-                <img src="images/Rectangle 8.png" alt="Case Study 3" class="original-image">
-                <img src="images/CFIA_hover.png" alt="Case Study 3" class="hover-image">
+<!--Case Studies-->
+    <section id="cases" class="section">
+        <div class="caseStudies">
+            <h2>CASE STUDIES</h2>
+            <div class="caseCards">
+                <div class="cards">
+                   <a href="bb.html">
+                        <img src="images/Rectangle 6.png" alt="Case Study 1" class="original-image">
+                        <img src="images/BB_hover.png" alt="Case Study 1 Hover" class="hover-image">
+                    </a>
+                </div>
+                <div class="cards">
+                   <a href="cat.html">
+                    <img src="images/Rectangle 7.png" alt="Case Study 2" class="original-image">
+                    <img src="images/CAT_hover.png" alt="Case Study 2" class="hover-image">
+                    </a>
+                </div>
+                <div class="cards">
+                   <a href="cfia.html">
+                    <img src="images/Rectangle 8.png" alt="Case Study 3" class="original-image">
+                    <img src="images/CFIA_hover.png" alt="Case Study 3" class="hover-image">
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+<!--About Me-->
+<section id="about" class="section">
     <section class="heroImg">
         <div class="content">
             <h2>ABOUT ME</h2>
@@ -72,7 +81,9 @@
             <button>LINKEDIN</button>
         </div>
     </section>
-
+</section>
+<!--Contact Form-->
+<section id="contact" class="section">
     <section class="contactForm">
         <div class="contact">
             <h2>CONTACT ME</h2>
@@ -90,6 +101,7 @@
             </form>
         </div>
     </section>
+</section>
     <footer>
         <ul>
             <li>About</li>
@@ -99,5 +111,4 @@
         </ul>
     </footer>
 </body>
-<script>src="index.js"</script>
 </html>

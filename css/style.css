@@ -130,7 +130,8 @@ p {
     background-color: #CBB9C0;
 }
 .contactForm {
-    margin-bottom: 8%;
+    margin-bottom: 10%;
+    padding-top: 45px;
 }
 form {
     width: 85%;
@@ -181,4 +182,9 @@ footer ul {
 footer li {
     display: inline-block;
     margin: 0 10px;
+    font-family: "Raleway", sans-serif;
+}
+footer li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
