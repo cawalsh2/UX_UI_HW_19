@@ -1,55 +1,103 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/style1.css">
-    </head>
-    <body>
-        <!--My UX Skills section coded using CSS Flex-->
-        <section class="mySkills">
-            <h1> My UX SKills</h1>
-            <div class="flexContainer">
-                <div class="userResearch">
-                    <img src="images/wireframing.jpg" class="centered-image">
-                    <h3>User Research</h3>
-                    <p>I focus on understanding how people feel about things, watching how they use stuff, and figuring out what they need even if they don't say it. I talk to users, ask them questions, and pay attention to how they behave to create designs that really suit them. I will use zoom, google surveys, figma and many other tools while collecting user data.
-                    </p>
-                </div>
-                <div class="userExperience">
-                    <img src="images/user_experience.jpg" class="centered-image">
-                    <h3>User Empathy</h3>
-                    <p>User empathy in UI/UX design calls for a blend of active listening skills, the ability to put oneself in others' shoes, and a knack for understanding users' emotions and perspectives. Tools such as user personas, journey maps, and empathy mapping facilitate a deeper comprehension of user needs, behaviors, and motivations, fostering a more empathetic design approach.
-                    </p>
-                </div>
-                <div class="curiosity">
-                    <img src="images/curiosity.jpg" class="centered-image">
-                    <h3>Qualitative Interviews</h3>
-                    <p>I was really into using Google surveys to collect as much data as possible. I'd send out surveys to lots of different people from various backgrounds to find out what website setups they liked best. This helped me figure out the ideal website functions and layouts that appealed to a wide range of users.</p>
-                </div>
-            </div>
-        </section>
-        <section class="myWork">
-            <h1>My Work</h1>
-            <div class="workGrid">
-                <div class="workItem">
-                    <img src="images/bb1.png">
-                    <div class="workDetails">
-                        <h4>Becoming Butterfly</h4>
-                        <p>Becoming Butterfly is an app that was meticulously crafted by our team to create a safe haven where users can connect not only with like-minded individuals but also find the right therapist and a nurturing community to support their mental health journey.
-                        </p>
-                        <button>Read More</button>
-                    </div>
-                </div>
-                <div class="workItem">
-                    <img src="images/cat1.png">
-                    <div class="workDetails">
-                    <h4>Chicago Adventure Therapy</h4>
-                    <p>Chicago Adventure Therapy (CAT) harnesses outdoor sports to empower Chicago's youth while enhancing their communities. Through teaching social and leadership skills, it fosters a sense of possibility and personal responsibility. My team worked to improve CAT’s website, aiming to create a volunteer sign-up for a more accessible engagement process.
-                    </p>
-                    <button>Read More</button>
-                </div>
-            </div>
-                <h3>View All Projects</h3>
+<head>
+    <title>Caleigh Walsh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-image: url(images/background_bubbles.png);
+            background-size: 125%;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="navigation">
+        <div class="logo">
+            <img src="images/cw logo.png">
         </div>
-        </section>
-    </body>
+        <nav class="nav-list" onclick="changeTab(event)">
+            <ul>
+                <li data-tab="about">About</li>
+                <li data-tab="skills">Skills</li>
+                <li data-tab="work">Work</li>
+                <li data-tab="contact">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="title">
+        <h1>Hi,</h1>
+        <h1>I am Caleigh Walsh</h2>
+        <h3>UX/UI Designer</p>
+    </div>
+
+    <div class="caseStudies">
+        <h2>CASE STUDIES</h2>
+        <div class="caseCards">
+            <div class="cards">
+                <img src="images/Rectangle 6.png" alt="Case Study 1" class="original-image">
+                <img src="images/BB_hover.png" alt="Case Study 1 Hover" class="hover-image">
+            </div>
+            <div class="cards">
+                <img src="images/Rectangle 7.png" alt="Case Study 2" class="original-image">
+                <img src="images/CAT_hover.png" alt="Case Study 2" class="hover-image">
+            </div>
+            <div class="cards">
+                <img src="images/Rectangle 8.png" alt="Case Study 3" class="original-image">
+                <img src="images/CFIA_hover.png" alt="Case Study 3" class="hover-image">
+            </div>
+        </div>
+    </div>
+    <section class="heroImg">
+        <div class="content">
+            <h2>ABOUT ME</h2>
+            <div class="info-container">
+                <img src="images/IMG_0536.png" class="profile-img">
+                 <p> Hey there! I'm a 27-year-old who swapped teaching for the exciting world of UI/UX design. Why? Because I'm all about mixing functionality with eye-catching visuals to craft digital experiences that sing. I get a kick out of blending functionality with awesome visuals to make digital spaces user-friendly and engaging.
+
+                 Teaching taught me empathy, which I pour into my designs—I want everyone to feel included and catered to. I'm all about that challenge, always looking around for inspiration in art, nature, and daily life to innovate within this ever-evolving field.
+
+                 When I'm not designing, you'll find me experimenting in the kitchen, tuning in to music across all genres, or lost in the pages of a good book. Infusing flavors, rhythms, and stories into my designs keeps me inspired and energized!</p>
+            </div>
+            <button>RESUME</button>
+            <button>LINKEDIN</button>
+        </div>
+    </section>
+
+    <section class="contactForm">
+        <div class="contact">
+            <h2>CONTACT ME</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>About</li>
+            <li>Skills</li>
+            <li>Work</li>
+            <li>Contact</li>
+        </ul>
+    </footer>
+</body>
+<script>src="index.js"</script>
 </html>

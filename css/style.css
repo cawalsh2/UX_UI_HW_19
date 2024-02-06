@@ -1,64 +1,184 @@
-/* My UX Skills*/
-.flexContainer{
+header.navigation {
     display:flex;
     justify-content: space-between;
-    
+    align-items: flex-start;
 }
-.flexContainer > div {
-    flex: 1;
-    margin: 0 10px;
-    padding: 20px;
+.title {
+    text-align: left;
+    position: absolute;
+    left: 40%;
+    top: 38%;
+    transform: translateX(-50%);
+    font-size: 38px;
+    line-height: 20px;
 }
-.wireframing img {
-    width: 200px;
-    height: 200px;
+.title h1 {
+    font-family:"Raleway", sans-serif;
+    font-weight:bolder;
+    color: #1C1C26;
 }
-.userExperience img {
-    width: 200px;
-    height: 200px;
+.title h3 {
+    font-family:"Raleway", sans-serif;
+    font-weight:lighter;
+    color: #1C1C26;
 }
-.curiosity img {
-    width: 200px;
-    height: 200px;
+h2 {
+    font-size:35px;
+    font-family: "Raleway", sans-serif;
+    font-weight:bold;
+    text-align:center;
+    color: #1C1C26;
+}
+p {
+    font-family: "Raleway", sans-serif;
 }
 
-/* My Work */
-.workGrid {
-    display: flex;
-    flex-wrap: wrap;
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+.nav-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 120px;
+}
+
+.nav-list ul li {
+    display: inline-block;
+    margin-right: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    color: #1C1C26;
+}
+
+.nav-list li:hover {
+    text-decoration: underline;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+.caseStudies {
+    margin-top: 45%;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight:bold
+}
+.caseCards {
+    display:flex;
     justify-content: space-between;
 }
-
-.workItem {
-    width: calc(50% - 10px);
-    margin-bottom: 20px;
+.cards img {
+    flex: 0 0 auto;
+    margin: 0 10px;
+    max-width: 450px;
+    height: auto;
 }
-
-.workItem img {
+.caseCards .cards img {
+    transition: transform 0.5s ease;
+}
+.caseCards .cards .hover-image {
+    display: none;
+}
+.caseCards .cards:hover .original-image {
+    display: none;
+}
+.caseCards .cards:hover .hover-image {
+    display: block;
+    cursor: pointer;
+}
+.heroImg {
+    margin-top: 18%;
+    height:600px;
+    padding: 25px;
+}
+.content {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.info-container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #1C1C26;
+}
+.content img {
+    width: 200px;
+    height: auto;
+    margin-right: 60px;
+}
+.content button {
+    margin: 10px 10px;
+    background-color: #8C6472;
+    color:#FFF;
+    border: none;
+    padding:16px;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    border-radius: 5px;
+}
+.content button:hover{
+    background-color: #CBB9C0;
+}
+.contactForm {
+    margin-bottom: 8%;
+}
+form {
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto;
+ }
+ form label {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+ }
+input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
-
-.workDetails {
     padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc; 
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
 }
-
-/* Mobile Media Query*/
-@media only screen and (max-width:600) {
-    .flexContainer{
-        display:flex;
-        justify-content: space-between;
-        flex-direction: column;
-    }
-    .flexContainer > div {
-        flex: 1;
-        width: 100%;
-        margin: 0 10px;
-        padding: 20px;
-    }
+textarea {
+    height: 150px;
+}
+input[type="submit"] {
+    background-color: #8C6472;
+    color: white;
+    padding:16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    float: right;
+}
+input[type="submit"]:hover {
+    background-color: #CBB9C0;
+}
+footer {
+    background-color: #CBB9C0;
+    text-align: right;
     
-
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 50px;
+}
+footer li {
+    display: inline-block;
+    margin: 0 10px;
 }
