@@ -3,6 +3,10 @@ header.navigation {
     justify-content: space-between;
     align-items: flex-start;
 }
+.bold {
+    font-weight:bold;
+    color:#370051;
+}
 .title {
     text-align: left;
     position: absolute;
@@ -23,19 +27,22 @@ header.navigation {
     color: #1C1C26;
 }
 .titleBB {
-    text-align: center;
-
+    text-align: left;
+    margin-left: 80px;
 }
 .titleBB h1{
     font-family:"Raleway", sans-serif;
     font-weight:bolder;
-    color: #1C1C26;
+    color: #370051;
+    font-size: 60px;
 }
 .titleBB h2 {
     font-family:"Raleway", sans-serif;
     font-weight: lighter;
-    color: #1C1C26;
-    font-size: 18px;
+    color:black;
+    font-size: 22px;
+    text-align: left;
+    max-width: 500px;
 }
 h2 {
     font-size:35px;
@@ -72,7 +79,6 @@ p {
 .nav-list li:hover {
     text-decoration: underline;
 }
-
 .logo img {
     width: 200px;
     height: auto;
@@ -116,6 +122,29 @@ p {
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
+}
+.bbcase-intro {
+    display:flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.bbcase-text {
+    flex: 1;
+    margin-right: 20px;
+    padding-left: 80px;
+}
+.bbImages {
+    flex: 0 0 auto;
+}
+.bbImages img {
+    display: block;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.bbcase-text h1 {
+    font-family: "Raleway", sans-serif;
+    color:#370051
 }
 .info-container {
     display: flex;
