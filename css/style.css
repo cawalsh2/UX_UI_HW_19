@@ -1,3 +1,4 @@
+/* Main Page */
 header.navigation {
     display:flex;
     justify-content: space-between;
@@ -26,24 +27,9 @@ header.navigation {
     font-weight:lighter;
     color: #1C1C26;
 }
-.titleBB {
-    text-align: left;
-    margin-left: 80px;
-}
-.titleBB h1{
-    font-family:"Raleway", sans-serif;
-    font-weight:bolder;
-    color: #370051;
-    font-size: 60px;
-}
-.titleBB h2 {
-    font-family:"Raleway", sans-serif;
-    font-weight: lighter;
-    color:black;
-    font-size: 22px;
-    text-align: left;
-    max-width: 500px;
-}
+
+
+
 h2 {
     font-size:35px;
     font-family: "Raleway", sans-serif;
@@ -123,29 +109,8 @@ p {
     margin: 0 auto;
     text-align: center;
 }
-.bbcase-intro {
-    display:flex;
-    align-items: flex-start;
-    margin-top: 20px;
-}
-.bbcase-text {
-    flex: 1;
-    margin-right: 20px;
-    padding-left: 80px;
-}
-.bbImages {
-    flex: 0 0 auto;
-}
-.bbImages img {
-    display: block;
-    width: 600px;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-.bbcase-text h1 {
-    font-family: "Raleway", sans-serif;
-    color:#370051
-}
+
+
 .info-container {
     display: flex;
     align-items: center;
@@ -247,5 +212,69 @@ footer li {
 footer li:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+
+
+
+/* BB page */
+.titleBB {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title-text {
+    margin-right: 20px;
+    padding-left: 30px;
+}
+.bbImages {
+    margin-left: auto;
+    margin-top: -550px;
+    width: 50%;
+    text-align: right;
+}
+.bbcase-intro {
+   margin-right: 20px;
+   margin-top: 20px;
+}
+.bbcase-text {
+    padding-left: 50px;
+}
+.bbImages img {
+    width: 600px;
+    margin-top: 0px;
+    margin-left: 10px;
+    max-width: 100%;
+}
+.text-container {
+    max-width: 50%;
+}
+.bbcase-text h1 {
+    font-family: "Raleway", sans-serif;
+    color:#370051;
+    margin-top: 0;
+    font-weight:bold;
+}
+.title-text h1{
+    font-family:"Raleway", sans-serif;
+    font-weight:bolder;
+    color: #370051;
+    font-size: 60px;
+}
+.titleBB h2 {
+    font-family:"Raleway", sans-serif;
+    font-weight: lighter;
+    color:black;
+    font-size: 22px;
+    text-align: left;
+    max-width: 500px;
+}
+.bbcase-text p {
+ font-family: "Raleway", sans-serif;
+ font-weight:300;
+ font-size:18px;
+ padding-left: 20px;
 }
 
