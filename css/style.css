@@ -4,10 +4,7 @@ header.navigation {
     justify-content: space-between;
     align-items: flex-start;
 }
-.bold {
-    font-weight:bold;
-    color:#370051;
-}
+
 .title {
     text-align: left;
     position: absolute;
@@ -27,8 +24,6 @@ header.navigation {
     font-weight:lighter;
     color: #1C1C26;
 }
-
-
 
 h2 {
     font-size:35px;
@@ -213,7 +208,25 @@ footer li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border:none;
+    outline: none;
+    background-color:#8C6472;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
 
+#myBtn:hover {
+    background-color: #CBB9C0;
+}
 
 
 
@@ -222,25 +235,33 @@ footer li:hover {
     display:flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-top: 10px;
     margin-bottom: 10px;
+    margin-top: 0px;
 }
 .title-text {
     margin-right: 20px;
-    padding-left: 30px;
+    padding-left: 60px;
 }
+.title-text h1{
+    font-family:"Raleway", sans-serif;
+    font-weight:bolder;
+    font-size: 60px;
+}
+.titleBB h1 {
+    color: #370051;
+}
+
 .bbImages {
-    margin-left: auto;
-    margin-top: -550px;
-    width: 50%;
-    text-align: right;
+    position: absolute;
+    right: 1px;
+    top: 300px
 }
 .bbcase-intro {
    margin-right: 20px;
    margin-top: 20px;
 }
-.bbcase-text {
-    padding-left: 50px;
+.case-text {
+    padding-left: 60px;
 }
 .bbImages img {
     width: 600px;
@@ -251,18 +272,12 @@ footer li:hover {
 .text-container {
     max-width: 50%;
 }
-.bbcase-text h1 {
+.case-text h1 {
     font-family: "Raleway", sans-serif;
-    color:#370051;
     margin-top: 0;
     font-weight:bold;
 }
-.title-text h1{
-    font-family:"Raleway", sans-serif;
-    font-weight:bolder;
-    color: #370051;
-    font-size: 60px;
-}
+
 .titleBB h2 {
     font-family:"Raleway", sans-serif;
     font-weight: lighter;
@@ -271,10 +286,133 @@ footer li:hover {
     text-align: left;
     max-width: 500px;
 }
-.bbcase-text p {
+.case-text p {
  font-family: "Raleway", sans-serif;
  font-weight:300;
  font-size:18px;
- padding-left: 20px;
+ padding-left: 10px;
 }
 
+.titleBBre {
+    margin-top: 100px;
+}
+.titleBBde {
+    margin-top: 100px;
+}
+.titleBBid {
+    margin-top: 100px;
+}
+.titleBBpt {
+    margin-top: 100px;
+
+}
+.bbcase-c p {
+    text-indent: 20px;
+    padding-right: 60px;
+    margin-bottom: 100px;
+}
+.titleBBc {
+    margin-bottom: -20px;
+}
+.bold {
+    font-weight:bold;
+    color:#370051;
+}
+.sectionB h1 {
+    font-family: "Raleway", sans-serif;
+    color:#C494DA;
+    margin-top: 40px;
+    font-weight:bold;
+    padding-left: 10px;
+}
+.bbcase-intro h1 {
+    color: #C494DA;
+    margin-top: 50px;
+}
+
+/*Chicago Art Therapy*/
+.titlecat {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+
+.title-textc h1{
+    font-family:"Raleway", sans-serif;
+    font-weight:bolder;
+    color: #1C2731;
+    font-size: 60px;
+}
+
+.title-textc h2 {
+    font-family:"Raleway", sans-serif;
+    font-weight: lighter;
+    color:black;
+    font-size: 22px;
+    text-align: left;
+    max-width: 500px;
+}
+
+.catImage img {
+    width: 600px;
+    margin-top: 0px;
+    margin-left: 10px;
+    max-width: 100%;
+}
+
+.catImage {
+    position: absolute;
+    right: 1px;
+    top: 400px
+}
+.boldc {
+    font-weight:bold;
+    color:#1C2731;
+}
+.ccase-intro {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.ccase-txt {
+    padding-left: 60px;
+}
+.sectionC h1 {
+    font-family: "Raleway", sans-serif;
+    color:#246f9e;
+    margin-top: 0;
+    font-weight:bold;
+    padding-left: 10px;
+}
+
+.catTitle {
+    margin-top: 100px;
+}
+.ccase-intro h1 {
+    color:#246f9e;
+}
+
+.cfiaTitle {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.cfiaTitle h2 {
+    font-family:"Raleway", sans-serif;
+    font-weight: lighter;
+    color:black;
+    font-size: 22px;
+    text-align: left;
+    max-width: 500px;
+}
+.cfiaTitle h1 {
+    color:green;
+}
+.boldi {
+    font-weight: bold;
+    color: lightseagreen;
+}
