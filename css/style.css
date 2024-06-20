@@ -259,6 +259,7 @@ footer li:hover {
 .bbcase-intro {
    margin-right: 20px;
    margin-top: 20px;
+   max-width: 50%;
 }
 .case-text {
     padding-left: 60px;
@@ -269,8 +270,18 @@ footer li:hover {
     margin-left: 10px;
     max-width: 100%;
 }
-.text-container {
-    max-width: 50%;
+.bb-goals {
+    max-width: 90%;
+}
+
+.bb-competitive {
+    max-width: 98%;
+}
+
+.bb-competitive img{
+    width: 600px;
+    height: auto;
+    padding-left:350px;
 }
 .case-text h1 {
     font-family: "Raleway", sans-serif;
@@ -324,6 +335,13 @@ footer li:hover {
     margin-top: 40px;
     font-weight:bold;
     padding-left: 10px;
+}
+
+.sectionB img {
+    width: 900px;
+    height: auto;
+   
+
 }
 .bbcase-intro h1 {
     color: #C494DA;
@@ -414,5 +432,11 @@ footer li:hover {
 }
 .boldi {
     font-weight: bold;
+    color: lightseagreen;
+}
+.sectionI h1 {
+    color: lightseagreen;
+}
+.cfia-intro h1 {
     color: lightseagreen;
 }
